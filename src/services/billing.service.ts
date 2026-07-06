@@ -2,6 +2,7 @@ import { eq, and, lte, sql } from "drizzle-orm";
 import { getDb, schema } from "@/db";
 import { logActivity } from "@/lib/activity";
 import { PDFDocument, rgb, StandardFonts } from "pdf-lib";
+import { APP_NAME } from "@/lib/config";
 
 export async function processRazorpayWebhook(payload: {
   event: string;
@@ -201,8 +202,7 @@ export async function generateInvoicePdf(
   page.drawText("Amount (INR)", { x: 450, y: 565, size: 10, font: fontBold });
   page.drawLine({ start: { x: 50, y: 555 }, end: { x: 545, y: 555 }, thickness: 1, color: rgb(0.8, 0.8, 0.8) });
 
-  // Items row
-  page.drawText(`NirmanSetu Liaison SaaS - ${planTier.toUpperCase()} Plan (Monthly)`, { x: 55, y: 535, size: 10, font: fontRegular });
+  page.drawText(`${APP_NAME} Liaison SaaS - ${planTier.toUpperCase()} Plan (Monthly)`, { x: 55, y: 535, size: 10, font: fontRegular });
   page.drawText("997331", { x: 280, y: 535, size: 10, font: fontRegular });
   page.drawText(basePrice.toFixed(2), { x: 450, y: 535, size: 10, font: fontRegular });
   page.drawLine({ start: { x: 50, y: 520 }, end: { x: 545, y: 520 }, thickness: 0.5, color: rgb(0.9, 0.9, 0.9) });

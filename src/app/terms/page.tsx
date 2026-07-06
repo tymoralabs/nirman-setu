@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { APP_NAME } from "@/lib/config";
 
 export default function TermsPage() {
   return (
@@ -13,7 +14,7 @@ export default function TermsPage() {
 
       <div className="space-y-4 text-sm text-foreground/80 leading-relaxed">
         <p>
-          Welcome to NirmanSetu (Construction Liaison Handoff Portal). By accessing or using our software, you agree to comply with and be bound by these Terms and Conditions.
+          Welcome to {APP_NAME} (Construction Liaison Handoff Portal). By accessing or using our software, you agree to comply with and be bound by these Terms and Conditions.
         </p>
 
         <h2 className="font-semibold text-foreground mt-4">1. Use of License</h2>

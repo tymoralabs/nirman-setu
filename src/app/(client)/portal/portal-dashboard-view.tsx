@@ -9,6 +9,7 @@ import { Progress } from "@/components/ui/progress";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { setLocaleAction } from "./actions";
+import { APP_NAME } from "@/lib/config";
 
 interface PortalChecklist {
   id: string;
@@ -44,7 +45,7 @@ export function PortalDashboardView({
       {/* Welcome banner */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-primary text-primary-foreground p-6 rounded-xl shadow-sm">
         <div>
-          <h2 className="text-xl font-bold">{t("welcome", { name: viewerName })}</h2>
+          <h2 className="text-xl font-bold">{t("welcome", { name: viewerName, appName: APP_NAME })}</h2>
           <p className="text-xs opacity-80 mt-1">
             Indian construction liaison document requests.
           </p>

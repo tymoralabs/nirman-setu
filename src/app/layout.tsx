@@ -15,10 +15,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "NirmanSetu — Document Portal",
-  description: "Secure liaison document tracking portal.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const { APP_NAME } = await import("@/lib/config");
+  return {
+    title: `${APP_NAME} — Document Portal`,
+    description: "Secure liaison document tracking portal.",
+  };
+}
 
 export default async function RootLayout({
   children,

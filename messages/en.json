@@ -1,7 +1,7 @@
 {
   "Portal": {
-    "title": "NirmanSetu Portal",
-    "welcome": "Welcome to NirmanSetu, {name}",
+    "title": "{appName} Portal",
+    "welcome": "Welcome to {appName}, {name}",
     "logout": "Log Out",
     "checklists": "Your Document Checklists",
     "noChecklists": "No checklists have been shared with you yet.",
