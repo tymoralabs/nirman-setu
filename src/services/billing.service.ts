@@ -202,7 +202,7 @@ export async function generateInvoicePdf(
   page.drawLine({ start: { x: 50, y: 555 }, end: { x: 545, y: 555 }, thickness: 1, color: rgb(0.8, 0.8, 0.8) });
 
   // Items row
-  page.drawText(`ALDMS Liaison SaaS - ${planTier.toUpperCase()} Plan (Monthly)`, { x: 55, y: 535, size: 10, font: fontRegular });
+  page.drawText(`NirmanSetu Liaison SaaS - ${planTier.toUpperCase()} Plan (Monthly)`, { x: 55, y: 535, size: 10, font: fontRegular });
   page.drawText("997331", { x: 280, y: 535, size: 10, font: fontRegular });
   page.drawText(basePrice.toFixed(2), { x: 450, y: 535, size: 10, font: fontRegular });
   page.drawLine({ start: { x: 50, y: 520 }, end: { x: 545, y: 520 }, thickness: 0.5, color: rgb(0.9, 0.9, 0.9) });

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ALDMS — Document Portal",
+  title: "NirmanSetu — Document Portal",
   description: "Secure liaison document tracking portal.",
 };
 

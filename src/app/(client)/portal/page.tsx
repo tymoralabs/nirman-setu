@@ -16,7 +16,7 @@ export default async function PortalPage() {
     <div className="min-h-screen bg-muted/20">
       <header className="border-b bg-background sticky top-0 z-10 px-6 py-4 flex items-center justify-between">
         <div>
-          <h1 className="text-xl font-bold text-foreground">ALDMS Portal</h1>
+          <h1 className="text-xl font-bold text-foreground">NirmanSetu Portal</h1>
         </div>
 
         <div className="flex items-center gap-4">

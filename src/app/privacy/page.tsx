@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
       <div className="space-y-4 text-sm text-foreground/80 leading-relaxed">
         <p>
-          At ALDMS, we respect the privacy of our users. This Privacy Policy explains how we collect, store, and process your personal and business data.
+          At NirmanSetu, we respect the privacy of our users. This Privacy Policy explains how we collect, store, and process your personal and business data.
         </p>
 
         <h2 className="font-semibold text-foreground mt-4">1. Data Collected</h2>
