@@ -7,3 +7,5 @@ runConfig:
 env:
   - variable: NEXT_PUBLIC_APP_NAME
     value: "NirmanSetu"
+  - variable: DATABASE_URL
+    secret: DATABASE_URL
