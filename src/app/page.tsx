@@ -12,7 +12,13 @@ export default function Home() {
           </div>
           <span className="text-xl font-bold tracking-tight text-slate-900">NirmanSetu</span>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-6">
+          <Link
+            href="/about"
+            className="text-sm font-medium hover:text-primary transition-colors"
+          >
+            About
+          </Link>
           <Link
             href="/login"
             className="text-sm font-medium hover:text-primary transition-colors"
