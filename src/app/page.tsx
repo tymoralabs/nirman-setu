@@ -105,6 +105,7 @@ export default function Home() {
             <span className="font-semibold text-slate-900">NirmanSetu</span>
           </div>
           <div className="flex flex-wrap gap-x-8 gap-y-2 text-sm text-slate-600">
+            <Link href="/about" className="hover:text-primary transition-colors">About</Link>
             <Link href="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>
             <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="/refunds" className="hover:text-primary transition-colors">Refunds & Cancellation</Link>
