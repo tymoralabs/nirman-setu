@@ -1,0 +1,65 @@
+{
+  "node": {
+    "00354a037514203235d0f1a3b5de90c47b4fb33fc9": {
+      "workers": {
+        "app/(firm)/projects/[id]/checklists/[checklistId]/page": {
+          "moduleId": 7254,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "src/app/(firm)/layout.tsx"
+        }
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "src/app/(firm)/layout.tsx"
+    },
+    "70f62049d5a3f3eef20029bfa7bb527b09aeeda00b": {
+      "workers": {
+        "app/(firm)/projects/[id]/checklists/[checklistId]/page": {
+          "moduleId": 7254,
+          "async": false,
+          "exportedName": "updateChecklistItemStatusAction",
+          "filename": "src/app/(firm)/projects/[id]/checklists/actions.ts"
+        }
+      },
+      "exportedName": "updateChecklistItemStatusAction",
+      "filename": "src/app/(firm)/projects/[id]/checklists/actions.ts"
+    },
+    "788bded6a503341718e0c69913ab284d49a29666b6": {
+      "workers": {
+        "app/(firm)/projects/[id]/checklists/[checklistId]/page": {
+          "moduleId": 7254,
+          "async": false,
+          "exportedName": "toggleHardCopyReceivedAction",
+          "filename": "src/app/(firm)/projects/[id]/checklists/actions.ts"
+        }
+      },
+      "exportedName": "toggleHardCopyReceivedAction",
+      "filename": "src/app/(firm)/projects/[id]/checklists/actions.ts"
+    },
+    "78c7b9438a95d00826e32a74a9894535bf4c1b9cf0": {
+      "workers": {
+        "app/(firm)/projects/[id]/checklists/[checklistId]/page": {
+          "moduleId": 7254,
+          "async": false,
+          "exportedName": "addCommentAction",
+          "filename": "src/app/(firm)/projects/[id]/checklists/actions.ts"
+        }
+      },
+      "exportedName": "addCommentAction",
+      "filename": "src/app/(firm)/projects/[id]/checklists/actions.ts"
+    },
+    "70c098c8b2f65ced8f283e68c6e27c5831e2fb89a6": {
+      "workers": {
+        "app/(firm)/projects/[id]/checklists/[checklistId]/page": {
+          "moduleId": 7254,
+          "async": false,
+          "exportedName": "softDeleteDocumentAction",
+          "filename": "src/app/(firm)/trash/actions.ts"
+        }
+      },
+      "exportedName": "softDeleteDocumentAction",
+      "filename": "src/app/(firm)/trash/actions.ts"
+    }
+  },
+  "edge": {}
+}

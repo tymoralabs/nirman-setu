@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "debugId": "4983f263-1b32-0964-1d47-f5fac7bec152",
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///messages/hi.json"],"sourcesContent":["{\"Portal\":{\"title\":\"{appName} पोर्टल\",\"welcome\":\"{appName} में आपका स्वागत है, {name}\",\"logout\":\"लॉग आउट\",\"checklists\":\"आपके दस्तावेज़ चेकलिस्ट\",\"noChecklists\":\"अभी तक आपके साथ कोई चेकलिस्ट साझा नहीं की गई है।\",\"remainingDocs\":\"{count} दस्तावेज़ अनुरोध शेष हैं\",\"completedDocs\":\"सभी दस्तावेज़ प्राप्त हो गए हैं। धन्यवाद!\",\"status\":{\"pending\":\"अपलोड होना बाकी है\",\"uploaded\":\"समीक्षा की प्रतीक्षा में\",\"received\":\"प्राप्त और स्वीकृत\",\"rejected\":\"अस्वीकृत\",\"waived\":\"आवश्यक नहीं (छूट दी गई)\"},\"help\":\"यह कहाँ से प्राप्त करें?\",\"sample\":\"नमूना देखें\",\"rejectionTitle\":\"अस्वीकृति प्रतिक्रिया\",\"rejectionReason\":\"कारण: {reason}\",\"waiveTitle\":\"आर्किटेक्ट द्वारा छूट दी गई\",\"waiveReason\":\"नोट: {reason}\",\"uploadButton\":\"दस्तावेज़ अपलोड करें\",\"cameraButton\":\"फोटो खींचें\",\"comments\":\"आर्किटेक्ट के साथ चर्चा\",\"commentPlaceholder\":\"इस दस्तावेज़ के बारे में कुछ पूछें...\",\"commentSend\":\"भेजें\",\"uploadSuccess\":\"सफलतापूर्वक अपलोड किया गया!\",\"uploadFailed\":\"अपलोड विफल रहा। कृपया फ़ाइल प्रकार और आकार की जांच करें।\",\"cameraPreview\":\"फोटो कैप्चर पूर्वावलोकन\",\"reorderPhotos\":\"रीऑर्डर करने के लिए फ़ोटो खींचें\",\"mergeBtn\":\"मर्ज और पीडीएफ अपलोड करें\",\"mandatory\":\"अनिवार्य\",\"optional\":\"वैकल्पिक\"}}"],"names":[],"mappings":""}}]
+}

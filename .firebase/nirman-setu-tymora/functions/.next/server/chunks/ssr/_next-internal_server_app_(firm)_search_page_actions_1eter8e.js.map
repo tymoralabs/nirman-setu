@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "debugId": "b3c2eea6-efce-76f4-f33a-efd35b7cf5b2",
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["../../../../.next-internal/server/app/%28firm%29/search/page/actions.js%20%28server%20actions%20loader%29"],"sourcesContent":["export {$$RSC_SERVER_ACTION_0 as '00354a037514203235d0f1a3b5de90c47b4fb33fc9'} from 'ACTIONS_MODULE0'\n"],"names":[],"mappings":"uCAAA,IAAA,EAAA,EAAA,CAAA,CAAA"}}]
+}

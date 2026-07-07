@@ -1,0 +1,17 @@
+{
+  "node": {
+    "4011e22f16adf1a0e90d2adaaebdda5581dbbb63fc": {
+      "workers": {
+        "app/(auth)/accept-invite/[token]/page": {
+          "moduleId": 54779,
+          "async": false,
+          "exportedName": "acceptInviteAction",
+          "filename": "src/app/(auth)/accept-invite/[token]/actions.ts"
+        }
+      },
+      "exportedName": "acceptInviteAction",
+      "filename": "src/app/(auth)/accept-invite/[token]/actions.ts"
+    }
+  },
+  "edge": {}
+}

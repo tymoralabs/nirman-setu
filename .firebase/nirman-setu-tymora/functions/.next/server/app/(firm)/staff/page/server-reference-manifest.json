@@ -1,0 +1,41 @@
+{
+  "node": {
+    "00354a037514203235d0f1a3b5de90c47b4fb33fc9": {
+      "workers": {
+        "app/(firm)/staff/page": {
+          "moduleId": 41939,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "src/app/(firm)/layout.tsx"
+        }
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "src/app/(firm)/layout.tsx"
+    },
+    "405e336b3746689a00e9e75b7e6a32357507410c81": {
+      "workers": {
+        "app/(firm)/staff/page": {
+          "moduleId": 41939,
+          "async": false,
+          "exportedName": "disableAssociateAction",
+          "filename": "src/app/(firm)/staff/actions.ts"
+        }
+      },
+      "exportedName": "disableAssociateAction",
+      "filename": "src/app/(firm)/staff/actions.ts"
+    },
+    "4089306bdef3f5cc67afa8ec2d4c8df5dd77433a51": {
+      "workers": {
+        "app/(firm)/staff/page": {
+          "moduleId": 41939,
+          "async": false,
+          "exportedName": "inviteAssociateAction",
+          "filename": "src/app/(firm)/staff/actions.ts"
+        }
+      },
+      "exportedName": "inviteAssociateAction",
+      "filename": "src/app/(firm)/staff/actions.ts"
+    }
+  },
+  "edge": {}
+}

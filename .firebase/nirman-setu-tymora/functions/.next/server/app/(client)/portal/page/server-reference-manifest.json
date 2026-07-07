@@ -1,0 +1,17 @@
+{
+  "node": {
+    "4055832d35c1b69f9ae234bf2510e9ada31e4f90af": {
+      "workers": {
+        "app/(client)/portal/page": {
+          "moduleId": 17668,
+          "async": false,
+          "exportedName": "setLocaleAction",
+          "filename": "src/app/(client)/portal/actions.ts"
+        }
+      },
+      "exportedName": "setLocaleAction",
+      "filename": "src/app/(client)/portal/actions.ts"
+    }
+  },
+  "edge": {}
+}
