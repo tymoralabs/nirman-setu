@@ -5,5 +5,5 @@ runConfig:
   concurrency: 80
 
 env:
-  - key: NEXT_PUBLIC_APP_NAME
+  - variable: NEXT_PUBLIC_APP_NAME
     value: "NirmanSetu"
