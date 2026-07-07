@@ -1,0 +1,9 @@
+# Firebase App Hosting Configuration
+runConfig:
+  minInstances: 0
+  maxInstances: 5
+  concurrency: 80
+
+env:
+  - key: NEXT_PUBLIC_APP_NAME
+    value: "NirmanSetu"

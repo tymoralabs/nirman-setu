@@ -4,7 +4,7 @@ self.__SERVER_FILES_MANIFEST={
     "env": {
       "_sentryRewriteFramesDistDir": ".next",
       "_sentryRewriteFramesAssetPrefixPath": "",
-      "_sentryRelease": "7b2c09411475348bb7689114d587dab2d0799ae7"
+      "_sentryRelease": "870a17e134b23314da41a89881151a5580c18608"
     },
     "webpack": null,
     "typescript": {
@@ -374,6 +374,7 @@ self.__SERVER_FILES_MANIFEST={
                     "@types/react-dom": "^19",
                     "dotenv": "^17.4.2",
                     "drizzle-kit": "^0.31.10",
+                    "esbuild": "^0.19.12",
                     "eslint": "^9",
                     "eslint-config-next": "16.2.10",
                     "tailwindcss": "^4",

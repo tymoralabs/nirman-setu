@@ -390,3 +390,355 @@ Type error: Type 'typeof import("C:/dev/TymoraLabs/architect-site/src/app/api/do
 [debug] [2026-07-07T01:16:40.934Z] Error: EPERM: operation not permitted, symlink 'C:\dev\TymoraLabs\architect-site\node_modules\@aws-sdk\client-s3' -> 'C:\dev\TymoraLabs\architect-site\.firebase\nirman-setu-tymora\functions\.next\node_modules\@aws-sdk\client-s3-ecbef8e33fd0b8f0'
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2026-07-07T01:16:57.242Z] ----------------------------------------------------------------------
+[debug] [2026-07-07T01:16:57.245Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\suhas\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2026-07-07T01:16:57.246Z] CLI Version:   15.18.0
+[debug] [2026-07-07T01:16:57.246Z] Platform:      win32
+[debug] [2026-07-07T01:16:57.246Z] Node Version:  v24.14.0
+[debug] [2026-07-07T01:16:57.246Z] Time:          Mon Jul 06 2026 20:16:57 GMT-0500 (Central Daylight Time)
+[debug] [2026-07-07T01:16:57.247Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-07T01:16:58.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-07T01:16:58.552Z] > authorizing via signed-in user (tymoralabs@gmail.com)
+[debug] [2026-07-07T01:16:58.553Z] [iam] checking project nirman-setu-tymora for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-07-07T01:16:58.554Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:16:58.554Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:16:58.555Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions [none]
+[debug] [2026-07-07T01:16:58.555Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions  x-goog-user-project=nirman-setu-tymora
+[debug] [2026-07-07T01:16:58.555Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-07-07T01:16:58.786Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions 200
+[debug] [2026-07-07T01:16:58.787Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-07-07T01:16:58.787Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:16:58.787Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:16:58.788Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nirman-setu-tymora [none]
+[debug] [2026-07-07T01:16:58.947Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nirman-setu-tymora 200
+[debug] [2026-07-07T01:16:58.947Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nirman-setu-tymora {"projectId":"nirman-setu-tymora","projectNumber":"182646927051","displayName":"nirman-setu-tymora","name":"projects/nirman-setu-tymora","resources":{"hostingSite":"nirman-setu-tymora"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_58b8b2a2-eebd-448f-9632-8613ac85d728"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 16.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2026-07-07T01:17:06.597Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:06.597Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:06.597Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora [none]
+[debug] [2026-07-07T01:17:07.230Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora 200
+[debug] [2026-07-07T01:17:07.230Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora {"name":"projects/nirman-setu-tymora/sites/nirman-setu-tymora","defaultUrl":"https://nirman-setu-tymora.web.app","type":"DEFAULT_SITE"}
+[info] ▲ Next.js 16.2.10 (Turbopack)
+
+[info] - Environments: .env
+- Experiments (use with caution):
+  · clientTraceMetadata
+
+
+[info]   Creating an optimized production build ...
+
+[info] ✓ Compiled successfully in 4.8s
+
+[info]   Running next.config.js provided runAfterProductionCompile ...
+
+[info] ✓ Completed runAfterProductionCompile in 277ms
+
+[info]   Running TypeScript ...
+
+[info]   Finished TypeScript in 7.7s ...
+
+[info]   Collecting page data using 23 workers ...
+
+[info]   Generating static pages using 23 workers (0/24) ...
+
+[info]   Generating static pages using 23 workers (6/24) 
+
+[info]   Generating static pages using 23 workers (12/24) 
+
+[info]   Generating static pages using 23 workers (18/24) 
+
+[info] ✓ Generating static pages using 23 workers (24/24) in 496ms
+
+[info]   Finalizing page optimization ...
+
+[info] 
+
+[info] Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /accept-invite/[token]
+├ ƒ /after-login
+├ ƒ /api/auth/[...nextauth]
+├ ƒ /api/auth/otp/send
+├ ƒ /api/auth/otp/verify
+├ ƒ /api/clients/[id]/export
+├ ƒ /api/cron/lifecycle
+├ ƒ /api/cron/reminders
+├ ƒ /api/download/[documentId]
+├ ƒ /api/health
+├ ƒ /api/storage/local
+├ ƒ /api/upload/complete
+├ ƒ /api/upload/presign
+├ ƒ /api/webhooks/razorpay
+├ ƒ /clients
+├ ƒ /dashboard
+├ ƒ /forgot-password
+├ ƒ /library
+├ ƒ /login
+├ ƒ /platform
+├ ƒ /portal
+├ ƒ /portal/checklists/[id]
+├ ƒ /privacy
+├ ƒ /projects
+├ ƒ /projects/[id]
+├ ƒ /projects/[id]/checklists/[checklistId]
+├ ƒ /refunds
+├ ƒ /reset-password/[token]
+├ ƒ /search
+├ ƒ /staff
+├ ƒ /templates
+├ ƒ /terms
+└ ƒ /trash
+
+
+ƒ Proxy (Middleware)
+
+[info] 
+ƒ  (Dynamic)  server-rendered on demand
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • middleware
+[info]  • non-static component /(auth)/accept-invite/[token]/page
+[info]  • non-static component /(auth)/after-login/page
+[info]  • non-static component /(auth)/forgot-password/page
+[info]  • non-static component /(auth)/login/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(auth)/reset-password/[token]/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(client)/portal/checklists/[id]/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(client)/portal/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/clients/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/dashboard/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/library/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/projects/[id]/checklists/[checklistId]/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/projects/[id]/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/projects/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/search/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/staff/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/templates/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(firm)/trash/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /(platform)/platform/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /_not-found/page
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /api/auth/[...nextauth]/route
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /api/auth/otp/send/route
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /api/auth/otp/verify/route
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /api/clients/[id]/export/route
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /api/cron/lifecycle/route
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /api/cron/reminders/route
+[debug] [2026-07-07T01:17:26.804Z]  • non-static component /api/download/[documentId]/route
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /api/health/route
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /api/storage/local/route
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /api/upload/complete/route
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /api/upload/presign/route
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /api/webhooks/razorpay/route
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /page
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /privacy/page
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /refunds/page
+[debug] [2026-07-07T01:17:26.805Z]  • non-static component /terms/page
+[info]  • and 31 other reasons, use --debug to see more
+[info] 
+[debug] [2026-07-07T01:17:27.744Z] skipping /_global-error due to it matching an unsupported rewrite/redirect/header or middlware
+[debug] [2026-07-07T01:17:27.745Z] skipping /500 due to it matching an unsupported rewrite/redirect/header or middlware
+[debug] [2026-07-07T01:17:30.957Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:30.957Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:30.957Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora [none]
+[debug] [2026-07-07T01:17:31.495Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora 200
+[debug] [2026-07-07T01:17:31.496Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora {"name":"projects/nirman-setu-tymora/sites/nirman-setu-tymora","defaultUrl":"https://nirman-setu-tymora.web.app","type":"DEFAULT_SITE"}
+[debug] [2026-07-07T01:17:32.183Z] Error: EPERM: operation not permitted, symlink 'C:\dev\TymoraLabs\architect-site\node_modules\@aws-sdk\client-s3' -> 'C:\dev\TymoraLabs\architect-site\.firebase\nirman-setu-tymora\functions\.next\node_modules\@aws-sdk\client-s3-ecbef8e33fd0b8f0'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-07-07T01:17:37.067Z] ----------------------------------------------------------------------
+[debug] [2026-07-07T01:17:37.070Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\suhas\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting --debug
+[debug] [2026-07-07T01:17:37.070Z] CLI Version:   15.18.0
+[debug] [2026-07-07T01:17:37.071Z] Platform:      win32
+[debug] [2026-07-07T01:17:37.071Z] Node Version:  v24.14.0
+[debug] [2026-07-07T01:17:37.071Z] Time:          Mon Jul 06 2026 20:17:37 GMT-0500 (Central Daylight Time)
+[debug] [2026-07-07T01:17:37.071Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-07T01:17:38.402Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-07-07T01:17:38.403Z] > authorizing via signed-in user (tymoralabs@gmail.com)
+[debug] [2026-07-07T01:17:38.404Z] [iam] checking project nirman-setu-tymora for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-07-07T01:17:38.405Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:38.405Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:38.406Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions [none]
+[debug] [2026-07-07T01:17:38.407Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions  x-goog-user-project=nirman-setu-tymora
+[debug] [2026-07-07T01:17:38.407Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-07-07T01:17:38.666Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions 200
+[debug] [2026-07-07T01:17:38.666Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nirman-setu-tymora:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-07-07T01:17:38.667Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:38.667Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:38.668Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nirman-setu-tymora [none]
+[debug] [2026-07-07T01:17:38.985Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nirman-setu-tymora 200
+[debug] [2026-07-07T01:17:38.986Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nirman-setu-tymora {"projectId":"nirman-setu-tymora","projectNumber":"182646927051","displayName":"nirman-setu-tymora","name":"projects/nirman-setu-tymora","resources":{"hostingSite":"nirman-setu-tymora"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_58b8b2a2-eebd-448f-9632-8613ac85d728"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 16.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2026-07-07T01:17:46.619Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:46.619Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:17:46.620Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora [none]
+[debug] [2026-07-07T01:17:47.397Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora 200
+[debug] [2026-07-07T01:17:47.397Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora {"name":"projects/nirman-setu-tymora/sites/nirman-setu-tymora","defaultUrl":"https://nirman-setu-tymora.web.app","type":"DEFAULT_SITE"}
+[info] ▲ Next.js 16.2.10 (Turbopack)
+
+[info] - Environments: .env
+- Experiments (use with caution):
+  · clientTraceMetadata
+
+
+[info]   Creating an optimized production build ...
+
+[info] 
+
+[info] [286.89ms] [@tailwindcss/postcss] src\app\globals.css
+[  0.07ms]   ↳ Quick bail check
+[ 52.78ms]   ↳ Setup compiler
+[  0.65ms]     ↳ PostCSS AST -> Tailwind CSS AST
+[ 52.00ms]     ↳ Create compiler
+[  0.22ms]   ↳ Register full rebuild paths
+[  2.10ms]   ↳ Setup scanner
+[ 74.11ms]   ↳ Scan for candidates
+[ 47.54ms]   ↳ Register dependency messages
+[ 76.93ms]   ↳ Build utilities
+[ 28.56ms]   ↳ Optimization
+[  0.98ms]     ↳ AST -> CSS
+[ 17.34ms]     ↳ Lightning CSS
+[ 10.19ms]     ↳ CSS -> PostCSS AST
+[  4.08ms]   ↳ Update PostCSS AST
+
+
+[info] ✓ Compiled successfully in 5.0s
+
+[info]   Running next.config.js provided runAfterProductionCompile ...
+
+[info] ✓ Completed runAfterProductionCompile in 239ms
+
+[info]   Running TypeScript ...
+
+[info]   Finished TypeScript in 7.8s ...
+
+[info]   Collecting page data using 23 workers ...
+
+[info]   Generating static pages using 23 workers (0/24) ...
+
+[info]   Generating static pages using 23 workers (6/24) 
+
+[info]   Generating static pages using 23 workers (12/24) 
+
+[info]   Generating static pages using 23 workers (18/24) 
+
+[info] ✓ Generating static pages using 23 workers (24/24) in 515ms
+
+[info]   Finalizing page optimization ...
+
+[info] 
+
+[info] Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /accept-invite/[token]
+├ ƒ /after-login
+├ ƒ /api/auth/[...nextauth]
+├ ƒ /api/auth/otp/send
+├ ƒ /api/auth/otp/verify
+├ ƒ /api/clients/[id]/export
+├ ƒ /api/cron/lifecycle
+├ ƒ /api/cron/reminders
+├ ƒ /api/download/[documentId]
+├ ƒ /api/health
+├ ƒ /api/storage/local
+├ ƒ /api/upload/complete
+├ ƒ /api/upload/presign
+├ ƒ /api/webhooks/razorpay
+├ ƒ /clients
+├ ƒ /dashboard
+├ ƒ /forgot-password
+├ ƒ /library
+├ ƒ /login
+├ ƒ /platform
+├ ƒ /portal
+├ ƒ /portal/checklists/[id]
+├ ƒ /privacy
+├ ƒ /projects
+├ ƒ /projects/[id]
+├ ƒ /projects/[id]/checklists/[checklistId]
+├ ƒ /refunds
+├ ƒ /reset-password/[token]
+├ ƒ /search
+├ ƒ /staff
+├ ƒ /templates
+├ ƒ /terms
+└ ƒ /trash
+
+
+ƒ Proxy (Middleware)
+
+[info] 
+ƒ  (Dynamic)  server-rendered on demand
+
+
+[info] Building a Cloud Function to run this application. This is needed due to:
+[info]  • middleware
+[info]  • non-static component /(auth)/accept-invite/[token]/page
+[info]  • non-static component /(auth)/after-login/page
+[info]  • non-static component /(auth)/forgot-password/page
+[info]  • non-static component /(auth)/login/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(auth)/reset-password/[token]/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(client)/portal/checklists/[id]/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(client)/portal/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/clients/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/dashboard/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/library/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/projects/[id]/checklists/[checklistId]/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/projects/[id]/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/projects/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/search/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/staff/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/templates/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(firm)/trash/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /(platform)/platform/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /_not-found/page
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /api/auth/[...nextauth]/route
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /api/auth/otp/send/route
+[debug] [2026-07-07T01:18:07.385Z]  • non-static component /api/auth/otp/verify/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/clients/[id]/export/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/cron/lifecycle/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/cron/reminders/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/download/[documentId]/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/health/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/storage/local/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/upload/complete/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/upload/presign/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /api/webhooks/razorpay/route
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /page
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /privacy/page
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /refunds/page
+[debug] [2026-07-07T01:18:07.386Z]  • non-static component /terms/page
+[info] 
+[debug] [2026-07-07T01:18:08.415Z] skipping /_global-error due to it matching an unsupported rewrite/redirect/header or middlware
+[debug] [2026-07-07T01:18:08.415Z] skipping /500 due to it matching an unsupported rewrite/redirect/header or middlware
+[debug] [2026-07-07T01:18:11.653Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:18:11.653Z] Checked if tokens are valid: true, expires at: 1783390429765
+[debug] [2026-07-07T01:18:11.653Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora [none]
+[debug] [2026-07-07T01:18:12.152Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora 200
+[debug] [2026-07-07T01:18:12.153Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nirman-setu-tymora/sites/nirman-setu-tymora {"name":"projects/nirman-setu-tymora/sites/nirman-setu-tymora","defaultUrl":"https://nirman-setu-tymora.web.app","type":"DEFAULT_SITE"}
+[debug] [2026-07-07T01:18:12.889Z] Error: EPERM: operation not permitted, symlink 'C:\dev\TymoraLabs\architect-site\node_modules\@aws-sdk\client-s3' -> 'C:\dev\TymoraLabs\architect-site\.firebase\nirman-setu-tymora\functions\.next\node_modules\@aws-sdk\client-s3-ecbef8e33fd0b8f0'
+[error] 
+[error] Error: An unexpected error has occurred.
