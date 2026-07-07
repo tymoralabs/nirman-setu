@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "debugId": "f145d596-cd9a-7258-a895-97515d50f7c3",
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["../../../../node_modules/next/src/shared/lib/invariant-error.ts"],"sourcesContent":["export class InvariantError extends Error {\n  constructor(message: string, options?: ErrorOptions) {\n    super(\n      `Invariant: ${message.endsWith('.') ? message : message + '.'} This is a bug in Next.js.`,\n      options\n    )\n    this.name = 'InvariantError'\n  }\n}\n"],"names":["InvariantError","Error","constructor","message","options","endsWith","name"],"mappings":"sHAAaA,iBAAAA,qCAAAA,IAAN,OAAMA,UAAuBC,MAClCC,YAAYC,CAAe,CAAEC,CAAsB,CAAE,CACnD,KAAK,CACH,CAAC,WAAW,EAAED,EAAQE,QAAQ,CAAC,KAAOF,EAAUA,EAAU,IAAI,0BAA0B,CAAC,CACzFC,GAEF,IAAI,CAACE,IAAI,CAAG,gBACd,CACF","ignoreList":[0]}}]
-}

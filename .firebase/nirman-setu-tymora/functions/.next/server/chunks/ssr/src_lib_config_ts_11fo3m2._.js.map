@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "debugId": "815b5d77-d545-64de-1631-2b6562a59f96",
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["../../../../src/lib/config.ts"],"sourcesContent":["export const APP_NAME = process.env.NEXT_PUBLIC_APP_NAME || \"NirmanSetu\";\n"],"names":["APP_NAME"],"mappings":"yDAAwB,iBAAoC"}}]
-}

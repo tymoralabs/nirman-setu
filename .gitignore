@@ -45,3 +45,7 @@ next-env.d.ts
 
 # env
 .env
+
+# firebase build folder
+.firebase/
+

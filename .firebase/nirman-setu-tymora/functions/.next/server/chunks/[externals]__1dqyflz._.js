@@ -1,5 +1,0 @@
-;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="d5735a69-dc62-4a88-aa6b-cd7f52079f32")}catch(e){}}();
-module.exports=[54799,(e,r,s)=>{r.exports=e.x("crypto",()=>require("crypto"))},22734,(e,r,s)=>{r.exports=e.x("fs",()=>require("fs"))},88947,(e,r,s)=>{r.exports=e.x("stream",()=>require("stream"))},46786,(e,r,s)=>{r.exports=e.x("os",()=>require("os"))},4446,(e,r,s)=>{r.exports=e.x("net",()=>require("net"))},55004,(e,r,s)=>{r.exports=e.x("tls",()=>require("tls"))},60438,(e,r,s)=>{r.exports=e.x("perf_hooks",()=>require("perf_hooks"))}];
-
-//# debugId=d5735a69-dc62-4a88-aa6b-cd7f52079f32
-//# sourceMappingURL=%5Bexternals%5D__1dqyflz._.js.map
